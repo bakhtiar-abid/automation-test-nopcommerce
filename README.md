@@ -1,11 +1,10 @@
 # Introduction
 
 ## Tools
-After analyzing the products and various automation tools, we selected [Playwright](https://playwright.dev/java/). which is one of the most popular open‐source functional and regression testing tools and very well suited for this product requirments. We went through the application, understood its functionality and work‐flow, and prepared our automation plan.
+After analyzing the products and various automation tools, we selected [Hybrid Framework with Page Object Model (POM) with Cucumber BDD & Selenium](https://www.selenium.dev/). which is one of the most popular open‐source functional and regression testing tools and very well suited for this product requirments. We went through the application, understood its functionality and work‐flow, and prepared our automation plan.
 We designed a high level hybrid framework which made the scripts very easy to run even for non-technical users.
 We developed sufficient sets of scripts to be simply run whenever there was a change in the application. Also, we have introduced cucumber with playwright for test case writing in gherken formet. So tech and non-tech both parties understand the test details.
 
- - **Playwright:** _v1.25.0_ (For Future)
  - **Java:** _v11.0.12_
  - **Cucumber:** _v7.6.0_
  - **Junit:** _v5.9.0_
@@ -43,7 +42,31 @@ We developed sufficient sets of scripts to be simply run whenever there was a ch
 
 #### For now, This project has below test classes
 
-1. LoginTest
+1. **LoginTest**
+2. **AllManufacturerPage**
+3. **ChangePasswordPage**
+4. **CheckoutPage**
+5. **CompareProductPage**
+6. **CustomerInfoPage**
+7. **DownloadablePage**
+8. **EmailAFriendPage**
+9. **GroupProductDetailsPage**
+10. **GuestCheckoutPage**
+11. **HomePage**
+12. **HomepagePage**
+13. **LoginPage**
+14. **MyAddressesPage**
+15. **MyOrdersPage**
+16. **MyReturnRequestsPage**
+17. **MyReviewsPage**
+18. **OrderDetailsPage**
+19. **PasswordRecoveryPage**
+20. **ProductSearchPage**
+21. **RegistrationPage**
+22. **RewardPointsPage**
+23. **ShoppingCartPage**
+24. **SimpleProductDetailsPage**
+25. **WishlistPage**
 
 
 ## Build and Test with different environment
