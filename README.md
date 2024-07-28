@@ -5,7 +5,7 @@ After analyzing the products and various automation tools, we selected [Playwrig
 We designed a high level hybrid framework which made the scripts very easy to run even for non-technical users.
 We developed sufficient sets of scripts to be simply run whenever there was a change in the application. Also, we have introduced cucumber with playwright for test case writing in gherken formet. So tech and non-tech both parties understand the test details.
 
- - **Playwright:** _v1.25.0_
+ - **Playwright:** _v1.25.0_ (For Future)
  - **Java:** _v11.0.12_
  - **Cucumber:** _v7.6.0_
  - **Junit:** _v5.9.0_
